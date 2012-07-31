@@ -1,0 +1,16 @@
+{
+    "name": "fredrik-lindberg/uuid",
+    "description": "Pure PHP UUID generator",
+    "tags": [ "UUID", "GUID"],
+    "homepage": "http://www.shapeshifter.se/2008/09/29/uuid-generator-for-php/",
+    "license": [ "Apache-2.0", "BSD-2-Clause" ],
+    "authors": [
+        {
+            "name": "Fredrik Lindberg",
+            "email": "fli@shapeshifter.se"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "FredrikLindberg": "src" }
+    }
+}
