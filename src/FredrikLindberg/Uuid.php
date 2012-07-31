@@ -41,13 +41,15 @@
  *
  */
 
+namespace FredrikLindberg;
+
 /*
  * UUID (RFC4122) Generator
  * http://tools.ietf.org/html/rfc4122
  *
  * Implements version 1, 3, 4 and 5
  */
-class UUID {
+class Uuid {
 	/* UUID versions */
 	const UUID_TIME	 = 1;	/* Time based UUID */
 	const UUID_NAME_MD5	 = 3;	/* Name based (MD5) UUID */
